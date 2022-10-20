@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+
+/*TOP BANNER*/
+#top_banner {	
+	display: flex;
+}
+
+
+h1  {
+	color: brown;
+	position: absolute;
+	font-size: 600%;
+	text-align: Left;
+	transform: translate(20%, 90%);
+}
+
+#banner_image {
+	width: 100%;
+	position: relative;
+}
+
+#banner_logo {
+	width: 30%;
+	position: absolute;
+	transform: translate(0, -20%);
+}
+
+
+#sign_in_icon {
+	width: 5%;
+	position: absolute;
+	background-color: white;
+	transform: translate(1670%, 30%);
+	padding: 5px;
+}
+
+#menu_icon {
+	width: 3%;
+	position: absolute;
+	background-color: white;
+	transform: translate(2485%, 39%);
+	padding: 5px;
+}
+
+#top_banner > h2 {
+	font-size: 250%;
+	background-color: brown;
+	padding: 20px;
+	border-radius: 20px;
+	color: white;
+	position: absolute;
+	transform: translate(50%, 750%);
+}
+
+/*MIDDLE_BANNER*/
+
+#middle_banner{
+	display: flex;
+}
+
+
+#middle_banner >img {
+	width: 100%;
+	padding: 20px;
+	border-radius: 50px;
+	position: :relative;
+}
+
+#middle_banner > h2{
+	position: :absolute;
+	font-size: 300%;
+	color: white;
+	transform: translate(350%, 100%);
+}
+
+#middle_banner > h3 {
+	position: : absolute;
+	font-size: 200%;
+	color: white;
+	text-align: left;
+	transform: translate(430%, 250%);
+}
+
+#middle_banner > p {
+	position: absolute;
+	font-size: 150%;
+	border-color: white;
+	padding: 20px;
+	border-radius: 20px;
+	transform: translate(870%, 500%);
+}
+/*CARDS*/
+
+.cards {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+
+.place {
+	width: 550px;
+	height: 550px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+/*TEXT*/
+
+h2{
+	padding: 20px;
+	font-size: 200%;
+}
+
+p {
+	color: blue;
+	font-size: 150%;
+}
+
+a {
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+	line-height: 150%;
+	padding: 10px;
+}
